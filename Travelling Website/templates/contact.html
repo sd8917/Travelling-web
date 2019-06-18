@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact |Us</title>
+</head>
+<body>
+
+<form action="contact" method="post">
+         {% csrf_token %}
+
+
+        <label>Name</label>
+        <input TYPE="text" placeholder="....."><br>
+
+        <label>E-mail</label>
+        <input TYPE="email" placeholder="....."><br>
+
+        <label>Message</label>
+        <textarea></textarea><br>
+
+        <INPUT type="submit"><br>
+
+    </form>
+</body>
+</html>
